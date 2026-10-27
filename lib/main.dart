@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'screens/historial_screen.dart';
+import 'screens/inicio_screen.dart';
 
 void main() {
   runApp(
@@ -21,7 +21,7 @@ class GastosApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: true,
       ),
-      home: const HistorialScreen(),
+      home: const InicioScreen(),
     );
   }
 }
